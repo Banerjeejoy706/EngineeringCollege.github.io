@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Engineering College</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Domine&family=Slabo+27px&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #8eedd4;
+    }
+
+    header {
+      background-color: #60a3eb;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #0051a8;
+      padding: 10px;
+      background-color: rgb(237, 181, 211);
+      display: flex;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #b1479a;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-family: 'Slabo 27px', serif;
+      font-size: 20px;
+    }
+
+    nav ul li a:hover {
+      /* background-color: #680647a2; */
+      color: #fff;
+    }
+
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-family: 'Domine', serif;
+    }
+
+    #homepage {
+      align-items: center;
+      justify-content: center;
+      font-family: 'Chivo Mono', monospace;
+    }
+
+    #home1::before {
+      content: "";
+      background: url("wd2img3.jpg") no-repeat center center/cover;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 400px;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.5;
+    }
+
+    #homepage p {
+      color: rgb(46, 101, 146);
+      font-family: 'Slabo 27px', serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    #home1,
+    #home2,
+    #home3 {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+    }
+    /* #home1{
+      max-height: 150px;
+    } */
+
+    #home1 img,
+    #home2 img,
+    #home3 img {
+      border: 2px solid lightgoldenrodyellow;
+      border-radius: 30px;
+      /* height: 140px; */
+    }
+
+    footer {
+       
+      font-family: 'Slabo 27px', serif;
+      font-size: 16px;
+      /* font-weight: bold; */
+      color: #ca2d52;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Haldia Institute of Technology</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About us</a></li>
+      <li><a href="/department.html">Department</a></li>
+      <li><a href="/faculty.html">Faculty</a></li>
+      <li><a href="/research.html">Research</a></li>
+      <li><a href="/placement.html">Placement</a></li>
+      <li><a href="/contact.html">Contact us</a></li>
+    </ul>
+  </nav>
+  <div id="homepage">
+    <section id="home1">
+      <img src="wd2img1.jpg" alt="this is an image">
+      <p>It is the first private and accredited academic institution catering technical education in West Bengal. The
+        Institute is situated at Haldia – an industrial hub in Eastern India. Since inception, Haldia Institute of
+        Technology is dedicated to the objectives of creating highly trained professional manpower in various
+        disciplines of Engineering, Technology and Social Science. The Institute is also dedicated to the contribution
+        of higher scientific research in Technology as well as in Applied Science and Social Science.</p>
+    </section>
+    <section id="home2">
+      <img src="wd2img2.jpg" alt="This is an image">
+      <p>Approved by All India Council for Technical Education (AICTE),
+        Affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal formerly known as WBUT</p>
+        <p>NAAC Accredited Technical Institute with “A” Grade [CGPA-3.31 out of 4]</p>
+    </section>
+    
+  </div>
+</body>
+
+
+<footer>Copyright © 2023 Haldia Institute of Technology. All Rights Reserved.</footer>
+
+</html>
+
